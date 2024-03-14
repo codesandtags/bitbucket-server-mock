@@ -1,0 +1,53 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Bitbucket Mock API",
+    "dateExported": "2024-03-14T17:41:51.333Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "a977ee51-5fe0-4a67-a88d-1f4c0eba6a75",
+            "colId": "a2dec098-2acd-4efc-9186-5be3156d8c5d",
+            "containerId": "",
+            "name": "Projects",
+            "url": "http://localhost:3000/api/bitbucket/projects",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-03-14T17:04:28.850Z",
+            "modified": "2024-03-14T17:17:08.762Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "7c040010-622f-420c-9cf4-50c72a038955",
+            "colId": "a2dec098-2acd-4efc-9186-5be3156d8c5d",
+            "containerId": "",
+            "name": "Repositories by Project",
+            "url": "http://localhost:3000/api/bitbucket/projects/QEWASO/repos",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-03-14T17:17:18.041Z",
+            "modified": "2024-03-14T17:19:55.893Z",
+            "headers": [],
+            "params": [],
+            "reqType": "get",
+            "tests": []
+        },
+        {
+            "_id": "64eb1fc9-d15f-4961-95e8-637f9c8194bf",
+            "colId": "a2dec098-2acd-4efc-9186-5be3156d8c5d",
+            "containerId": "",
+            "name": "Repositories catalog-info.yaml",
+            "url": "http://localhost:3000/api/bitbucket/projects/QEWASO/repos/raw/catalog-info.yaml",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2024-03-14T17:40:10.071Z",
+            "modified": "2024-03-14T17:41:01.552Z",
+            "headers": [],
+            "params": [],
+            "reqType": "get",
+            "tests": []
+        }
+    ]
+}
